@@ -113,28 +113,36 @@
     <br>
 
     <!-- LOGIN MODAL TRIGGER -->
-<!-- pasted from above for this comment -->
-    <div class="modal" id="myModal">
+    <button class="btn btn-dark" data-toggle="modal" data-target="#loginModal">Login</button>
+
+    <!-- LOGIN MODAL -->
+    <div class="modal" id="loginModal">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Modal Title</h5>
+              <h5 class="modal-title">Login</h5>
               <button class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus unde veniam harum magnam molestias dignissimos omnis
-              architecto, quod, obcaecati dolorum debitis dolore porro qui, iusto quo accusantium voluptates pariatur illo.
+              <form>
+                <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="text" placeholder="Username" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="password" class="form-control">
+                  </div>
+              </form>
             </div>
             <div class="modal-footer">
               <button class="btn btn-danger" data-dismiss="modal">Close</button>
+              <button class="btn btn-success" data-dismiss="modal">Login</button>
             </div>
           </div>
         </div>
       </div>
-  
-
-
-    <!-- LOGIN MODAL -->
 
   </div>
 
